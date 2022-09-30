@@ -1,0 +1,35 @@
+﻿<Window x:Class="BusApplication.View.TicketAndPrices"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BusApplication.View"
+        mc:Ignorable="d"
+        Title="TicketAndPrices" Height="314" MaxHeight="314" MinHeight="314" MaxWidth="800" MinWidth="800" Width="800" WindowStartupLocation="CenterScreen" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="63*"  />
+            <RowDefinition Height="53*" />
+            <RowDefinition Height="57*"  />
+            <RowDefinition Height="125.039"  />
+        </Grid.RowDefinitions>
+        <TextBlock Text="BİLET VƏ QİYMƏTLƏR" FontSize="18" FontWeight="Bold"  FontStyle="Italic" VerticalAlignment="Center" Margin="15,0,0,0" Height="23"></TextBlock>
+        <StackPanel Margin="0,10,0,0" Grid.Row="1"  >
+            <TextBlock FontSize="12" TextWrapping="Wrap" FontStyle="Italic"  
+                   Text="BakuBus BakıKart sistemi ilə fəaliyyət göstərir. BakuCard sərnişinlərin beynəlxalq standartlara uyğun tələblərinə cavab verən yeni elektron ödəniş kartıdır. BakuBus pul köçürmələrini qəbul etmir." Margin="4,4,4,4" />
+        </StackPanel>
+        <StackPanel Background="LightGray"  Grid.Row="2" Margin="0,8,0,0" >
+            <TextBlock Foreground="Red" FontWeight="Bold" FontSize="12" TextWrapping="Wrap" FontStyle="Italic"  
+                   Text="Bakı Kartlarının alınması tez və asandır. BakuCard Terminallarında alış-veriş: Sizə yaxın yerləşən Bakı Kart terminallarımızdan birinə yaxınlaşın. BakuCard yalnız nağd pul qəbul edir.
+Vahid sistemdə 2 növ kartdan istifadə olunur " Margin="4,4,4,4" Height="41"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Height="100" VerticalAlignment="Center">
+            <TextBlock TextWrapping="Wrap" FontSize="12" FontStyle="Italic" 
+                       Text="BakuCard: BakıKart terminallarından əldə etmək olar. Qiymət 2 AzN, bir tərəfə gediş haqqı 0,30. Beləliklə, kartlar geri qaytarılmır, həmçinin istənilən vaxt daha çox kredit əlavə edə bilərsiniz"  ></TextBlock>
+            <TextBlock Margin="0 10 0 0" TextWrapping="Wrap" FontSize="12" FontStyle="Italic" 
+                       Text="Məhdud girişi olan BakuCard. Qiymət 0,20 AzN, bir tərəfə gediş haqqı 0,30. 45 gün etibarlıdır. Kart alındıqda maksimum 4 limit əlavə edə bilərsiniz. Kart ilk istifadədən sonra 45 gün ərzində etibarlıdır."  ></TextBlock>
+
+        </StackPanel>
+
+    </Grid>
+</Window>

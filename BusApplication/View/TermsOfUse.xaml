@@ -1,0 +1,31 @@
+﻿<Window x:Class="BusApplication.View.TermsOfUse"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BusApplication.View"
+        mc:Ignorable="d"
+        Title="TermsOfUse" WindowStartupLocation="CenterScreen" Height="402" MaxHeight="404" MaxWidth="800" MinHeight="404" MinWidth="800" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="61*"/>
+            <RowDefinition Height="121*"/>
+            <RowDefinition Height="219*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="İSTİFADƏ QAYDALARI" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" Margin="15,0,0,0" Height="24"></TextBlock>
+        <Image  Source="/View/TermsOfUsee.png" Margin="0,5,0,0" Grid.Row="1" />
+        <StackPanel Grid.Row="2" Margin="0,3,0,0">
+            <TextBlock FontSize="12" FontStyle="Italic" TextWrapping="Wrap"
+                       Text="Azərbaycan qanunvericiliyinə uyğun olaraq Bakubusda siqaret çəkmək qadağandır, elektron simulyasiya edilmiş siqaret materiallarından, elektron siqaretlərdən və tüstüsüz siqaretlərdən istifadə də qadağandır "></TextBlock>
+            <TextBlock FontSize="12" FontStyle="Italic" TextWrapping="Wrap"
+                       Text="İtlər, pişiklər, quşlar və digər heyvanlar daşınmayacaq "></TextBlock>
+
+            <TextBlock FontSize="12" FontStyle="Italic" TextWrapping="Wrap"
+                       Text="Qanunvericiliklə müəyyən edilmiş məsuliyyət istisna olmaqla, Bakubus qəzalar, nasazlıqlar, yol şəraiti, hava şəraiti və ondan asılı olmayan digər şərait nəticəsində yaranan gecikmələrə görə məsuliyyət daşımır və müəyyən vaxtda istənilən məntəqəyə gəlib-getməyə zəmanət vermir. "></TextBlock>
+            <TextBlock FontSize="12" FontStyle="Italic" TextWrapping="Wrap" 
+                       Text="Bakubus a) sərxoşedici içki və ya narkotik vasitənin təsiri altında olan, b) özünə qulluq edə bilməyən (bu, qulluqçu və ya tibb bacısı müşayiət edən şəxslərə şamil edilmir) şəxsi daşımaqdan imtina etmək hüququnu özündə saxlayır. c) davranışı onu digər sərnişinlər və ya potensial sərnişinlər üçün etiraz edə biləcək dərəcədə və ya ehtimal edən, d) şəxsi və ya əmlakında silah axtarışına icazə verməkdən imtina edən və ya onun şəxsiyyətini müsbət identifikasiya etməyən; sorğu və ya e) və ya hər hansı qanuni qayda və ya qaydaya əməl etməkdən imtina edən. Belə şəxslər sürücünün seçdiyi marşrut üzrə avtobusdan çıxarıla bilər. BoltBus marşrutda çıxarılan sərnişinlərə görə heç bir kompensasiya ödəməyəcək. "></TextBlock>
+            <TextBlock FontSize="12" FontStyle="Italic" TextWrapping="Wrap"
+                       Text="Bakubus yalnız müəyyən edilmiş dayanacaqlarda dayanacaq "></TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>

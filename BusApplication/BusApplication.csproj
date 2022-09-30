@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="View\555.png" />
+    <None Remove="View\CREALIS.png" />
+    <None Remove="View\Elan_Bus.png" />
+    <None Remove="View\Elan_Driver.png" />
+    <None Remove="View\Elan_Information.png" />
+    <None Remove="View\Elan_Tekh.png" />
+    <None Remove="View\f_logo.png" />
+    <None Remove="View\logo_bakubus.png" />
+    <None Remove="View\next.png" />
+    <None Remove="View\prev.png" />
+    <None Remove="View\TermsOfUsee.png" />
+    <None Remove="View\Virtual_Tour.png" />
+    <None Remove="View\y_logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.5.0" />
+    <PackageReference Include="Microsoft.Maps.MapControl.WPF" Version="1.0.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\f_logo.png" />
+    <Resource Include="Resources\logo_bakubus.png" />
+    <Resource Include="Resources\next.png" />
+    <Resource Include="Resources\prev.png" />
+    <Resource Include="Resources\y_logo.png" />
+    <Resource Include="View\555.png" />
+    <Resource Include="View\CREALIS.png" />
+    <Resource Include="View\Elan_Bus.png" />
+    <Resource Include="View\Elan_Driver.png" />
+    <Resource Include="View\Elan_Information.png" />
+    <Resource Include="View\Elan_Tekh.png" />
+    <Resource Include="View\TermsOfUsee.png" />
+    <Resource Include="View\Virtual_Tour.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resource1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resource1.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

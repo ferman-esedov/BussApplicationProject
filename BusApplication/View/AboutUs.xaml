@@ -1,0 +1,38 @@
+﻿<Window x:Class="BusApplication.View.AboutUs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BusApplication.View"
+        mc:Ignorable="d"
+        Title="AboutUs" Height="406" Width="800" WindowStartupLocation="CenterScreen" MaxWidth="800" MaxHeight="406" MinWidth="800" MinHeight="406">
+    <Grid Margin="0,0,0,0" >
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="46*" />
+            <RowDefinition Height="124*"/>
+            <RowDefinition Height="47*" />
+            <RowDefinition Height="81*" />
+            <RowDefinition Height="118*" />
+        </Grid.RowDefinitions>
+        <Label FontSize="18" FontStyle="Italic" FontWeight="Bold" Content="HAQQIMIZDA" Margin="4,4,4,4"/>
+        <StackPanel Margin="0,7,0,2" Grid.Row="1" >
+
+            <TextBlock FontSize="12" TextWrapping="Wrap" FontStyle="Italic"  
+                   Text="BakuBus Məhdud Məsuliyyətli Cəmiyyəti Azərbaycan Respublikası NazirlərKabinetinin 03.04.2014-cü il tarixli 92 nömrəli qərarı ilə Bakı Şəhər İcra Hakimiyyətinin tabeliyində dövlət müəssisəsi olaraq yaradılmışdır." Margin="4,4,4,4" Height="29"/>
+            <TextBlock FontSize="12" TextWrapping="Wrap" FontStyle="Italic"   Text="Azərbaycan Respublikası Prezidentinin 06 iyul 2018-ci il tarixli 181 nömrəli Fərmanına əsasən BakuBus Məhdud Məsuliyyətli Cəmiyyət Bakı Nəqliyyat Agentliyinin tabeliyinə verilmişdir."></TextBlock>
+            <TextBlock FontSize="12" TextWrapping="Wrap" FontStyle="Italic"   Text="Cəmiyyətin əsas məqsədləri Bakı şəhərində sərnişinlərə avtobus nəqliyyatı sahəsində beynəlxalq standartlara uyğun xidmətin təşkili, bu sahənin müasir tipli nəqliyyat vasitələri ilə təchiz edilməsi, sərnişindaşımanın yerinə yetirilməsi zamanı texniki və ekoloji baxımdan təhlükəsizliyin təmin olunmasıdır.."/>
+        </StackPanel>
+        <TextBlock Grid.Row="2" Width="120" Height="30" TextAlignment="Center" HorizontalAlignment="Left" Background="Red" Text="Məqsədimiz" FontSize="18" Foreground="White" FontStyle="Italic" FontWeight="Bold" Margin="0,3,0,0"  />
+        <StackPanel Grid.Row="3" Margin="0,1,0,38" Grid.RowSpan="2">
+            <TextBlock  FontSize="12" TextWrapping="Wrap" FontStyle="Italic"  
+                        Text="Azərbaycan dünyada sürətlə inkişaf edən ölkələrdən biridir. Son on ildə ölkəmizdə aparılan sosial-iqtisadi islahatlar eyni zamanda yüksək keyfiyyətli ictimai nəqliyyat xidmətinin təşkilinə zərurət yaratmışdır. Vətəndaşlarımız üçün uzun müddətli inkişaf perspektivi vəd edən etibarlı, təhlükəsiz və rahat avtobus nəqliyyat xidməti göstərməyi üzərimizə öhdəlik götürmüşük. Məqsədimiz sərnişinlərimizin ehtiyac və tələblərini qarşılamaq, ictimai nəqliyyatın keyfiyyətini artırmaq və bu sahədə innovasiyaları tətbiq etməkdir." ></TextBlock>
+        </StackPanel>
+        <TextBlock Grid.Row="4" VerticalAlignment="Top" Height="30" Width="140" TextAlignment="Center" HorizontalAlignment="Left" Background="Red" Text="Strategiyamız" FontSize="18" Foreground="White" FontStyle="Italic" FontWeight="Bold" Margin="0,3,0,0"  />
+        <StackPanel Grid.Row="4" Height="40" VerticalAlignment="Center">
+            <TextBlock  FontSize="12" TextWrapping="Wrap" FontStyle="Italic" Height="59"  >
+                Strategiyamız 21-ci əsrin tələblərinə cavab verən nəqliyyat xidməti təşkil etmək, sərnişinlərə rahat və təhlükəsiz xidmət göstərmək, eləcə də bu sahədə dünya təcrübəsindən istifadə etməkdir.
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
